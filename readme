@@ -41,8 +41,10 @@ rkhunter -c   ###### lancer le check ou scan khunter #########
 yes "" | apt install ansible
 
 
+######pour lancer le playbook en tant que user: 
+ansible-playbook playbook.yml -i inventaire.ini -e "server=rasbppery"
 
-pour accéder au site depuis la machine maite c est via l url www.lisa.dupont ou bien l ip du rasbppery
+#####pour accéder au site depuis la machine maite c est via l url www.lisa.dupont ou bien l ip du rasbppery
 
 
 
